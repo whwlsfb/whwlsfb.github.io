@@ -543,11 +543,14 @@ h6 {
   .post + .post {
     border-top: 1px solid #e6e6e6; }
   .post .post-header .post-title {
+    overflow-wrap: break-word;
     margin: 0;
     font-size: 27px;
     font-weight: 400;
     font-family: Athelas, STHeiti, Microsoft Yahei, serif; }
   .post .post-header .post-link {
+    width: 100%;
+    overflow-wrap: break-word;
     display: inline-block;
     vertical-align: middle;
     transform: translateZ(0);
